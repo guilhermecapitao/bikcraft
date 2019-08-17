@@ -271,7 +271,7 @@ img {
 .qualidade:after {
   content: "";
   width: 634px;
-  height: 83;
+  height: 83px;
   display: block;
   background: url("../img/linhas.svg") no-repeat center;
   position: absolute;
