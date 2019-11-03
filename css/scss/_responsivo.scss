@@ -13,7 +13,7 @@
 	/* Footer */
 
 	.footer_redes ul li a {
-		border: 3px solid #fec63e;
+		border: 3px solid $amarelo;
 		display: block;
 		padding: 6px;
 	}
@@ -31,13 +31,12 @@
 	}
 
 	.produto_icone {
-		background: #000;
+		background: $black;
 		padding: 41px 0;
 	}
 
 	.produto_info p {
-		font-size: 14px;
-		line-height: 20px;
+		@include tipo-1(14);
 		padding: 20px 30px;
 		height: 122px;	
 	}
@@ -80,19 +79,19 @@
 	}
 
 	.header_menu ul li a {
-		color: #000;
-		border: 4px solid #000;
+		color: $black;
+		border: 4px solid $black;
 		width: 136px;
 		display: block;
 		float: left;
 	}
 
 	.header_menu ul li a.menu_ativo {
-		border-color: #FFF;
+		border-color: $white;
 	}
 
 	.header_menu ul li a:hover {
-		border-color: #FFF;
+		border-color: $white;
 	}
 
 /* Introdução */
@@ -105,7 +104,7 @@
 	}
 
 	.introducao h1 {
-		font-size: 36px;
+		@include tipo-1(36);
 	}
 
 	/* Introdução interna */
@@ -128,12 +127,11 @@
 
 	.missao_sobre  p {
 		padding-right: 0px; 
-		font-size: 14px;
-		line-height: 20px;
+		@include tipo-1(14);
 	}
 
-	.missao_sobre  ul li {
-		font-size: 14px;
+	.missao_sobre ul li {
+		@include tipo-1(14);
 		line-height: 25px;
 	}
 
@@ -145,13 +143,12 @@
 	}
 
 	.produto_icone {
-		background: #000;
+		background: $black;
 		padding: 41px 0;
 	}
 
 	.produto_info p {
-		font-size: 14px;
-		line-height: 20px;
+		@include tipo-1(14);
 		height: auto;
 		padding: 20px 30px;
 	}
@@ -159,8 +156,7 @@
 	.produto_info ul li {
 		width: 149px;
 		height: 49px; 
-		font-size: 14px;
-		line-height: 20px;
+		@include tipo-1(14);
 		padding-top: 14px;
 	}
 

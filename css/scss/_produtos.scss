@@ -8,8 +8,8 @@
 }
 
 .produto_item h2 {
-	color: #FFF;
-	font-size: 36px;
+	color: $white;
+	@include tipo-1(36);
 	text-transform: uppercase;
 	letter-spacing: .1em;
 	font-weight: bold;
@@ -24,12 +24,12 @@
   display: block;
   width: 60px;
   height: 3px;
-  background-color: #FFF;
+  background-color: $white;
   margin: 6px auto 8px auto;
 } 
 
 .produto_icone {
-	background: #000;
+	background: $black;
 	padding: 70px 0;
 }
 
@@ -38,21 +38,20 @@
 }
 
 .produto_info {
-	background: #000;
+	background: $black;
 }
 
 .produto_info p {
-	color: #FFF;
-	font-size: 18px;
-	line-height: 25px;
+	color: $white;
+	@include tipo-1(18);
 	padding: 30px 40px;
 	height: 180px;	
 }
 
 .produto_info ul li {
-	background: #fec63e;
+	background: $amarelo;
 	text-transform: uppercase;
-	font-size: 18px;
+	@include tipo-1(18);
 	line-height: 20px;
 	font-weight: bold;
 	float: left;
@@ -73,18 +72,18 @@
 /* Orçamento */
 
 .orcamento {
-	background: #000;
+	background: $black;
 	width: 100%;
 	margin-top: 60px;
 	padding: 40px 0;
 }
 
 .orcamento h2 {
-	color: #fec63e;
+	color: $amarelo;
 }
 
 .orcamento h2:after {
-	background: #fec63e;
+	background: $amarelo;
 }
 
 .form {
@@ -93,38 +92,34 @@
 
 .form label {
 	display: block;
-	color: #FFF;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: 18px;
-	line-height: 25px;
+	color: $white;
+	@include tipo-2(18);
 	margin-bottom: 4px;
 }
 
 .form input {
 	display: block;
 	width: 100%;
-	border: 4px solid #fec63e;
+	border: 4px solid $amarelo;
 	background: none;
-	color: #FFF;
+	color: $white;
 	padding: 7px 10px;
 	outline: none;
-	font-size: 14px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
 	margin-bottom: 10px;
+	@include tipo-2(14);
 }
 
 .form textarea {
 	display: block;
 	width: 100%;
 	height: 120px;
-	border: 4px solid #fec63e;
+	border: 4px solid $amarelo;
 	background: none;
-	color: #FFF;
+	color: $white;
 	padding: 7px 10px;
 	outline: none;
-	font-size: 14px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
 	margin-bottom: 20px;
+	@include tipo-2(14);
 }
 
 .form button {
@@ -133,22 +128,20 @@
 }
 
 .orcamento_dados {
-	color: #FFF;
+	color: $white;
 }
 
 .orcamento_dados h3 {
-	font-size: 18px;
+	@include tipo-1(18);
 	text-transform: uppercase;
-	color: #fec63e;
-	line-height: 25px;
+	color: $amarelo;
 	font-weight: bold;
 }
 
 .orcamento_dados span {
 	display: block;
-	font-size: 18px;
+	@include tipo-2(18);
 	line-height: 30px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .orcamento_dados span:nth-of-type(2){
@@ -160,9 +153,8 @@
 }
 
 .orcamento_dados ul li {
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: 14px;
 	padding: 10px 15px;
+	@include tipo-2(14);
 }
 
 .orcamento_dados ul li:nth-child(odd) {
