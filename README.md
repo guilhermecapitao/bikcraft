@@ -1,6 +1,13 @@
 <h1 align="center">
-  <img src="https://ik.imagekit.io/capitao/bikcraft-repository/og-image_ZIl0yxigl.png">
+  <img src="https://ik.imagekit.io/capitao/bikcraft-repository/og-image_ZIl0yxigl.png" width="200">
 </h1>
+
+## Índice
+
+- [Sobre](#-Sobre)
+- [Tecnologias utilizadas](#-Tecnologias-utilizadas)
+- [Como executar o projeto](#-Como-executar-o-projeto)
+- [Preview](#-Preview)
 
 ---
 
@@ -9,14 +16,6 @@
 <h1>
   <img src="https://ik.imagekit.io/capitao/bikcraft-repository/bikcraft-preview_mQgpgWYWA.png">
 </h1>
-
---- 
-
-## Índice
-
-- [Sobre](#-Sobre)
-- [Tecnologias utilizadas](#-Tecnologias-utilizadas)
-- [Como executar o projeto](#-Como-executar-o-projeto)
 
 ---
 
